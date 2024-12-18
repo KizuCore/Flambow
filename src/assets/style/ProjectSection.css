@@ -1,0 +1,19 @@
+/* SECTION */
+
+.project-section img {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.bg-project {
+  background-color: rgba(251, 239, 224, 1);
+}
+
+.text-project {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.blue-cyan {
+  color: rgba(36, 150, 159, 1);
+}
