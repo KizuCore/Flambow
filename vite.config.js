@@ -13,6 +13,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@style': path.resolve(__dirname, 'src/assets/style'), // Alias pour le dossier style
+      '@image': path.resolve(__dirname, 'src/assets/images'), 
     },
   },
 });
