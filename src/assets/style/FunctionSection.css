@@ -1,3 +1,4 @@
+/* Cercle numéroté */
 .step-circle {
     display: inline-flex;
     justify-content: center;
@@ -14,11 +15,29 @@
     font-size: 40px;
 }
 
-
+/* Couleur de fond */
 .bg-dark-blue {
     background-color: rgba(19, 60, 92, 1);
 }
 
+/* Texte général */
+.text-title {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.text-li {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* Alignement des listes */
+li.d-flex {
+    align-items: center;
+}
+
+/* Placeholder d'image */
 .square-placeholder {
     width: 100%;
     max-width: 300px;
@@ -26,17 +45,47 @@
     background-color: #d3d3d3;
 }
 
-li.d-flex {
-    align-items: center;
+/* Images ajustables */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.text-title{
-    font-size:35px;
-    font-weight: 400;
-    line-height: 44px;
-}
+/* Media Query : Responsive Design pour Mobile */
+@media (max-width: 768px) {
+    /* Titres */
+    .text-title {
+        font-size: 29px;
 
-.text-li{
-    font-size:20px;
-    line-height: 24px;
+        text-align: center; /* Centrer les titres */
+    }
+
+
+
+
+
+
+    /* Espacements pour les rangées */
+    .row {
+        flex-direction: column-reverse; /* Inverse les colonnes pour une meilleure lisibilité */
+    }
+
+    /* Gestion des images */
+    .col-md-4 img,
+    .col-md-5 img {
+        margin: 0 auto 1.5rem auto; /* Centre les images avec un espace en bas */
+        display: block;
+        height: auto;
+        max-height: 200px; /* Taille des images réduite */
+    }
+
+    /* Ajustement général du padding */
+    .py-5 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mb-5 {
+        margin-bottom: 1.5rem !important;
+    }
 }

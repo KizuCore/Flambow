@@ -1,16 +1,20 @@
+/* Styles généraux */
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
 header {
-  background-color: rgba(251, 239, 224, 1) ;
+  background-color: rgba(251, 239, 224, 1);
 }
 
 header h1 {
   font-size: 2.5rem;
-  color:rgba(19, 60, 92, 1);
+  color: rgba(19, 60, 92, 1);
+  margin-left: 100px;
 }
 
+/* Section */
 section {
   padding: 2rem 0;
 }
@@ -24,22 +28,95 @@ section {
   text-align: justify;
 }
 
-.title{
+/* Titres principaux */
+.title {
   font-size: 50px;
   font-weight: 700;
   line-height: 61px;
 }
 
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
 
-.dark-blue{
+.dark-blue {
   color: rgba(19, 60, 92, 1);
 }
 
+/* Fond bleu sombre */
 .bg-dark-blue {
   background-color: rgba(19, 60, 92, 1);
 }
 
+.header-title {
+  margin-left: 100px;
+}
 
+/* Media Query : Format Mobile */
+@media (max-width: 768px) {
+
+  /* Header */
+  .header-title {
+    margin-left: 0;
+  }
+
+  header {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  /* Titre principal */
+  .title {
+    font-size: 42px;
+    /* Réduction de la taille */
+    line-height: 42px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  /* Sections */
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  /* Titres */
+  .title {
+    text-align: center;
+  }
+
+  /* Boutons */
+  .btn {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  /* Texte d'introduction */
+  .text-justify {
+    text-align: center;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Espacements supplémentaires */
+  .mt-5,
+  .mb-5 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Container général */
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

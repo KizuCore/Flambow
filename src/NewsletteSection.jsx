@@ -24,7 +24,7 @@ function NewsletterSection() {
             />
             {/* Bouton flèche */}
             <button
-              className="btn arrow-btn rounded-pill-end"
+              className="arrow-btn rounded-pill-end"
               type="button"
               aria-label="Envoyer"
             >

@@ -10,7 +10,7 @@ function App() {
     <div className="container-fluid p-0">
       {/* Header */}
       <header className="d-flex py-4">
-        <h1 className="fw-bold ps-5" style={{ marginLeft: "100px" }}>
+        <h1 className="fw-bold ps-5 header-title" >
           Flambow
         </h1>
       </header>

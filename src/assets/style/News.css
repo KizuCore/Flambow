@@ -74,3 +74,23 @@
   overflow: hidden;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
+
+/* Media Query pour mobile */
+@media (max-width: 768px) {
+
+  .email-input {
+
+    padding: 15px; /* Ajustement du padding */
+    font-size: 16px; /* Taille de texte plus petite */
+  }
+
+  .arrow-btn {
+    padding: 10px; /* Ajustement du padding */
+  }
+
+  .arrow-icon {
+    width: auto; /* Taille de l'icône réduite */
+    height: 20px;
+  }
+}
+
