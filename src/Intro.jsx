@@ -1,5 +1,7 @@
 import "@style/Intro.css";
 import oldYoung from "@image/old-young.png";
+import eyeClose from "@image/eye-close.svg";
+import eyeOpen from "@image/eye-open.svg";
 
 function Intro() {
   return (
@@ -12,8 +14,21 @@ function Intro() {
               <p className="lead title-secondary pb-5">
                 La solution pour connecter les générations
               </p>
-              <button className="btn button-flambow mb-5 py-3 px-5">
+              <button className="btn button-flambow mb-5 py-3 px-5 position-relative">
                 Découvrez le prototype
+                {/* SVG Eye */}
+                <span className="eye-icon ms-4">
+                  <img
+                    src={eyeClose}
+                    alt="Eye close"
+                    className="eye-close"
+                  />
+                  <img
+                    src={eyeOpen}
+                    alt="Eye open"
+                    className="eye-open"
+                  />
+                </span>
               </button>
             </div>
           </div>
