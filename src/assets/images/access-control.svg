@@ -1,0 +1,16 @@
+<svg width="130" height="148" viewBox="0 0 130 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M59.5 89H39.5C37.5 89.1667 33.5 87.7 33.5 80.5C33.5 73.3 33.5 51.8333 33.5 42C33.6667 39.6667 35.4 35 41 35C41.4934 35 42.1688 35 43 35M59.5 89V69C59.8333 67.3333 61.5 64 65.5 64C69.5 64 70.8333 67.3333 71 69M59.5 89V108.5L48.5 96C47.5 95.1667 44.9 93.9 42.5 95.5C40.1 97.1 39.5 99.8333 39.5 101L55 129C56.1667 132.167 58.5 140 58.5 146M71 69V89C75.1667 89 84.7 89 89.5 89C94.3 89 96.1667 85.6667 96.5 84C96.5 72.5 96.5 48 96.5 42C96.5 36 91.8333 34.8333 89.5 35C88.42 35 87.2472 35 86 35M71 69L70.3077 108L70.5207 96C70.854 95 72 92.5 76 92.5C80 92.5 81 94.5 81 95.5V110V100C81 99 81.9 96.9 85.5 96.5C89.1 96.1 91 98.6667 91.5 100V110V105.5C92.3333 104.333 94.8 102 98 102C101.2 102 102.333 104.333 102.5 105.5C102.5 109.833 102.5 119.4 102.5 123C102.5 126.6 98.1667 135.833 96 140V146.5H58.5M53.5 35V22C53.8333 18.8333 56.5 12.5 64.5 12.5C72.5 12.5 75.5 18.8333 76 22V35M53.5 35C60.2139 35 68.4876 35 76 35M53.5 35C49.1224 35 45.4079 35 43 35M76 35C79.592 35 83.0099 35 86 35M43 35V21C43.5 14.6667 48.5 2 64.5 2C80.5 2 85.5 14.6667 86 21V35" stroke="#133C5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60.5 65.5C59 64.6667 56.5 62.7 56.5 57.5C56.5 51 62 49.5 64.5 49.5C67 49.5 73 50.5 73.5 57.5C73.9 63.1 71.1667 64.8333 69.5 65.5" stroke="#133C5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="117.5" cy="18" r="6" stroke="#133C5C" stroke-width="3"/>
+<circle cx="122.5" cy="39" r="6" stroke="#133C5C" stroke-width="3"/>
+<circle cx="122.5" cy="63" r="6" stroke="#133C5C" stroke-width="3"/>
+<circle cx="122.5" cy="86" r="6" stroke="#133C5C" stroke-width="3"/>
+<circle cx="117.5" cy="107" r="6" stroke="#133C5C" stroke-width="3"/>
+<path d="M115 102L107.5 89.5L97 85.5M118.5 81.5L112.5 76H97M116.5 63H97M118.5 43L112.5 48.5H97M114 23L107.5 35L97 40" stroke="#133C5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="7.5" cy="7.5" r="6" transform="matrix(-1 0 0 1 20 10.5)" stroke="#133C5C" stroke-width="3"/>
+<circle cx="7.5" cy="7.5" r="6" transform="matrix(-1 0 0 1 15 31.5)" stroke="#133C5C" stroke-width="3"/>
+<circle cx="7.5" cy="7.5" r="6" transform="matrix(-1 0 0 1 15 55.5)" stroke="#133C5C" stroke-width="3"/>
+<circle cx="7.5" cy="7.5" r="6" transform="matrix(-1 0 0 1 15 78.5)" stroke="#133C5C" stroke-width="3"/>
+<circle cx="7.5" cy="7.5" r="6" transform="matrix(-1 0 0 1 20 99.5)" stroke="#133C5C" stroke-width="3"/>
+<path d="M15 102L22.5 89.5L33 85.5M11.5 81.5L17.5 76H33M13.5 63H33M11.5 43L17.5 48.5H33M16 23L22.5 35L33 40" stroke="#133C5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
