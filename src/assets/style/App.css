@@ -16,6 +16,10 @@ section {
   padding: 0.8rem 1.5rem;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 
 /* INTRO */
 
@@ -44,4 +48,29 @@ section {
 
 li.d-flex {
   align-items: center; /* Aligne les enfants verticalement au centre */
+}
+
+
+/* SECTION */
+
+.project-section img {
+  height: 80px; 
+  margin-bottom: 1rem;
+}
+
+/* NEWS */
+
+.rounded-pill-start {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.rounded-pill-end {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.btn-dark {
+  font-size: 1.2rem; 
+  padding: 0.375rem 1.2rem;
 }
