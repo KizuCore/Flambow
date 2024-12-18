@@ -1,5 +1,7 @@
 import "@style/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ProjectSection from "./ProjectSection";
+import NewsletterSection from "./NewsletteSection";
 
 function App() {
   return (
@@ -8,6 +10,13 @@ function App() {
       <header className="bg-light d-flex py-4">
         <h1 className="fw-bold ps-5">Flambow</h1>
       </header>
+
+
+
+
+
+
+
 
       {/* Section d'introduction */}
       <section className="bg-secondary text-white py-5">
@@ -42,10 +51,20 @@ function App() {
             </p>
           </div>
 
+
+
+
+
+
+
+
+
+
+
           {/* Grille pour contenu */}
           <div className="row fw-bold pb-5">
             {/* Liste des étapes */}
-            <div className="col-md-8">
+            <div className="col-md-7">
               <h3 className="fw-bold mb-4">Tu souhaites apprendre :</h3>
               <ul className="list-unstyled">
                 <li className="d-flex mb-3">
@@ -74,18 +93,25 @@ function App() {
             </div>
 
             {/* Carré gris */}
-            <div className="col-md-4 d-flex justify-content-end align-items-center">
+            <div className="col-md-5 d-flex justify-content-end align-items-center">
               <div className="bg-light square-placeholder"></div>
             </div>
           </div>
 
+
+
+
+
+
+
+
           <div className="row fw-bold pt-5">
             {/* Carré gris */}
-            <div className="col-md-4 d-flex justify-content-start align-items-center">
+            <div className="col-md-5 d-flex justify-content-start align-items-center">
               <div className="bg-light square-placeholder"></div>
             </div>
             {/* Liste des étapes */}
-            <div className="col-md-8">
+            <div className="col-md-7">
               <h3 className="fw-bold mb-4">Tu souhaites partager tes compétences :</h3>
               <ul className="list-unstyled">
                 <li className="d-flex mb-3">
@@ -117,6 +143,16 @@ function App() {
           </div>
         </div>
       </section>
+
+
+    <ProjectSection />
+
+    <NewsletterSection/>
+
+
+
+
+
     </div>
   );
 }
