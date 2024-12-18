@@ -75,21 +75,21 @@
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Media Query pour mobile */
+/* Responsive pour mobile */
 @media (max-width: 768px) {
 
   .email-input {
 
-    padding: 15px; /* Ajustement du padding */
-    font-size: 16px; /* Taille de texte plus petite */
+    padding: 15px; 
+    font-size: 16px; 
   }
 
   .arrow-btn {
-    padding: 10px; /* Ajustement du padding */
+    padding: 10px; 
   }
 
   .arrow-icon {
-    width: auto; /* Taille de l'icône réduite */
+    width: auto; 
     height: 20px;
   }
 }

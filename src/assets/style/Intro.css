@@ -19,8 +19,8 @@
 }
 
 .button-flambow:hover {
-    background-color: #FCA12A; /* Couleur plus foncée au survol */
-    transform: scale(1.05); /* Légère animation */
+    background-color: #FCA12A; 
+    transform: scale(1.05); 
 }
 
 /* Fond de la section */
@@ -30,29 +30,28 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 110px 0 !important;
-    position: relative; /* Nécessaire pour positionner les enfants absolus */
+    position: relative; 
 }
 
 /* Image en bas à gauche */
 .image-bottom-left {
-    position: absolute; /* Positionnement en bas à gauche */
+    position: absolute; 
     bottom: 0;
     left: 0;
-    width: 300px; /* Taille par défaut */
-    max-width: 100%; /* Empêche de dépasser le conteneur */
-    z-index: 1; /* Derrière le texte */
+    width: 300px; 
+    max-width: 100%; 
+    z-index: 1; 
 }
 
-/* Responsive Design */
+/* Responsive Mobile */
 @media (max-width: 768px) {
-    /* Ajustement de l'image */
     .image-bottom-left {
-        width: 200px; /* Réduction de la taille sur mobile */
+        width: 200px; 
     }
 
     /* Centrage du texte */
     .text-end {
-        text-align: center !important; /* Centre le texte */
+        text-align: center !important; 
         margin-top: 20px;
     }
 
@@ -60,13 +59,13 @@
 
     /* Titre secondaire */
     .title-secondary {
-        font-size: 20px; /* Taille réduite pour mobile */
+        font-size: 20px; 
         line-height: 28px;
     }
 
     /* Bouton principal */
     .button-flambow {
-        font-size: 20px; /* Texte du bouton plus petit */
-        padding: 10px 20px; /* Ajustement du padding */
+        font-size: 20px; 
+        padding: 10px 20px; 
     }
 }

@@ -52,7 +52,7 @@ section {
   margin-left: 100px;
 }
 
-/* Media Query : Format Mobile */
+/* Responsive Mobile */
 @media (max-width: 768px) {
 
   /* Header */

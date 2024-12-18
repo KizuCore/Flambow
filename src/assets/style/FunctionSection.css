@@ -51,32 +51,26 @@ img {
     height: auto;
 }
 
-/* Media Query : Responsive Design pour Mobile */
+/* Responsive pour Mobile */
 @media (max-width: 768px) {
     /* Titres */
     .text-title {
         font-size: 29px;
-
-        text-align: center; /* Centrer les titres */
+        text-align: center; 
     }
-
-
-
-
-
 
     /* Espacements pour les rangées */
     .row {
-        flex-direction: column-reverse; /* Inverse les colonnes pour une meilleure lisibilité */
+        flex-direction: column-reverse; 
     }
 
-    /* Gestion des images */
+    /* Gestion images */
     .col-md-4 img,
     .col-md-5 img {
-        margin: 0 auto 1.5rem auto; /* Centre les images avec un espace en bas */
+        margin: 0 auto 1.5rem auto; 
         display: block;
         height: auto;
-        max-height: 200px; /* Taille des images réduite */
+        max-height: 200px; 
     }
 
     /* Ajustement général du padding */
