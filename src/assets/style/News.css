@@ -1,0 +1,76 @@
+/* Style général */
+.text-news {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+/* Arrondi pour input et bouton */
+.rounded-pill-start {
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+}
+
+.rounded-pill-end {
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+}
+
+/* Style input */
+.email-input {
+  background-color: rgba(247, 240, 224, 1);
+  color: rgba(19, 60, 92, 1);
+  font-size: 24px;
+  border: none;
+  padding: 15px 20px; 
+  padding-left:40px;
+  box-shadow: none;
+}
+
+/* Style du texte placeholder */
+.email-input::placeholder {
+  color: rgba(19, 60, 92, 1); 
+  opacity: 1; 
+}
+
+.email-input::-webkit-input-placeholder { /* Chrome, Safari */
+  color: rgba(19, 60, 92, 1);
+  opacity: 1;
+}
+
+.email-input:focus {
+  color: rgba(19, 60, 92, 1); /* Maintient */
+  background-color: rgba(247, 240, 224, 1);
+}
+
+
+/* Style du bouton flèche */
+.arrow-btn {
+  background-color: rgba(247, 240, 224, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+  padding: 0 20px; 
+}
+
+.arrow-btn:hover {
+  background-color: rgb(238, 228, 202);
+}
+
+/* Style icône SVG */
+.arrow-path {
+  fill: #133C5C; 
+  transition: fill 0.3s ease; 
+}
+
+.arrow-btn:hover .arrow-path {
+  fill: rgba(36, 150, 159, 1); 
+}
+
+/* Style global form */
+.input-group {
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
