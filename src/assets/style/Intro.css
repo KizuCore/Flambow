@@ -29,7 +29,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 110px 0 !important;
+    padding: 140px 0 !important;
     position: relative; 
 }
 
@@ -38,7 +38,7 @@
     position: absolute; 
     bottom: 0;
     left: 0;
-    width: 300px; 
+    width: 30%; 
     max-width: 100%; 
     z-index: 1; 
 }
@@ -68,4 +68,10 @@
         font-size: 20px; 
         padding: 10px 20px; 
     }
+
+    .image-bottom-left {
+        display: none !important;
+      }
 }
+
+
