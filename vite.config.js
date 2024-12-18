@@ -12,7 +12,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@style': path.resolve(__dirname, 'src/assets/style'), // Alias pour le dossier style
+      '@style': path.resolve(__dirname, 'src/assets/style'), 
       '@image': path.resolve(__dirname, 'src/assets/images'), 
     },
   },
