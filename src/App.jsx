@@ -50,7 +50,7 @@ function App() {
             <BsInstagram size={24} />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=61570522210745"
+            href="https://www.facebook.com/profile.php?id=61570529711427"
             target="_blank"
             rel="noopener noreferrer"
             className="text-dark mx-3 img-nav"
