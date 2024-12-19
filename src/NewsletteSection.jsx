@@ -52,10 +52,10 @@ function NewsletterSection() {
       );
 
       if (putResponse.status === 200) {
-        alert("Votre email a été ajouté avec succès !");
+        alert("Votre email a été ajouté avec succès à la newsletter !");
         setEmail(""); // Réinitialiser le champ d'entrée
       } else {
-        alert("Une erreur s'est produite lors de la mise à jour.");
+        alert("Une erreur s'est produite lors de votre ajout à la newsletter.");
       }
     } catch (error) {
       console.error("Erreur réseau ou de configuration :", error);
