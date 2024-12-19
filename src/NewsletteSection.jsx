@@ -25,7 +25,7 @@ function NewsletterSection() {
     setIsLoading(true);
 
     try {
-      // Récupérer les emails existants
+      // Récupérer emails existants
       const getResponse = await axios.get(import.meta.env.VITE_JSONBIN_URL, {
         headers: {
           "X-Master-Key":
@@ -35,10 +35,10 @@ function NewsletterSection() {
 
       const existingEmails = getResponse.data.record.emails || [];
 
-      // Ajouter l'email à la liste existante
+      // Ajouter email à liste existante
       const updatedEmails = [...existingEmails, email];
 
-      // Envoyer la mise à jour
+      // Envoyer MAJ
       const putResponse = await axios.put(
         import.meta.env.VITE_JSONBIN_URL,
         { emails: updatedEmails },
@@ -87,7 +87,7 @@ function NewsletterSection() {
               aria-label="Votre adresse mail"
               value={email}
               onChange={handleInputChange}
-              disabled={isLoading} // Désactiver le champ en cours de traitement
+              disabled={isLoading} // Désactiver champ en cours de traitement
             />
             {/* Bouton flèche */}
             <button
@@ -95,7 +95,7 @@ function NewsletterSection() {
               type="button"
               aria-label="Envoyer"
               onClick={submitEmail}
-              disabled={isLoading} // Désactiver le bouton en cours de traitement
+              disabled={isLoading} // Désactiver bouton en cours de traitement
             >
               {isLoading ? (
                 <div className="spinner-border custom-spinner" role="status">
