@@ -8,7 +8,9 @@ function FunctionIntro() {
       <div className="container mb-4">
         {/* Titre + texte */}
         <div className="text-center mb-5">
-          <h2 className="fw-bold title uppercase text-white mb-5 mt-5">Comment ça fonctionne ?</h2>
+          <h2 className="fw-bold title uppercase text-white mb-5 mt-5">
+            Comment ça fonctionne ?
+          </h2>
           <p className="text-one pt-4">
             <span className="fw-bold text-title">
               Jeunes ou seniors, vos compétences nous intéressent !
@@ -23,7 +25,9 @@ function FunctionIntro() {
         <div className="row fw-bold py-5">
           {/* Liste des étapes */}
           <div className="col-md-8">
-            <h3 className="fw-bold mb-5 text-title">Tu souhaites apprendre :</h3>
+            <h3 className="fw-bold mb-5 text-title">
+              Tu souhaites apprendre :
+            </h3>
             <ul className="list-unstyled">
               <li className="d-flex mb-5">
                 <span className="step-circle me-5">1</span>
@@ -44,21 +48,33 @@ function FunctionIntro() {
               </li>
               <li className="d-flex">
                 <span className="step-circle me-5">4</span>
-                <p className="mb-0 text-li">Apprends une nouvelle compétence !</p>
+                <p className="mb-0 text-li">
+                  Apprends une nouvelle compétence !
+                </p>
               </li>
             </ul>
           </div>
 
           {/* SVG */}
           <div className="col-md-4 d-flex justify-content-end align-items-center">
-            <img src={headIdea} alt="Personne ayant une idée" className="mb-5" style={{ height: "314px" }} />
+            <img
+              src={headIdea}
+              alt="Personne ayant une idée"
+              className="mb-5"
+              style={{ height: "314px" }}
+            />
           </div>
         </div>
 
         <div className="row fw-bold pt-5">
           {/* SVG */}
           <div className="col-md-5 d-flex justify-content-start align-items-center">
-          <img src={twoHeads} alt="2 Personnes qui échangent leurs idées" className="mb-5" style={{ height: "290px" }} />
+            <img
+              src={twoHeads}
+              alt="2 Personnes qui échangent leurs idées"
+              className="mb-5"
+              style={{ height: "290px" }}
+            />
           </div>
           {/* Liste des étapes */}
           <div className="col-md-7">
@@ -95,6 +111,19 @@ function FunctionIntro() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="video-container text-center my-5">
+        <h3 className="text-title fw-bold mb-5">
+          Découvrez la vidéo de démonstration !
+        </h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/rDQa5mwbwWQ"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </section>
   );
