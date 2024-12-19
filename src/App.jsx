@@ -20,7 +20,7 @@ function App() {
           <img
             src={LogoFull}
             alt="Logo Flambow Entier"
-            className="ps-5 logo-full"
+            className="ps-3 logo-full"
             style={{ height: "80px" }}
           />
           <img
@@ -35,7 +35,7 @@ function App() {
         <div className="d-flex align-items-center">
           <a
             href="mailto:contact.flambow@gmail.com"
-            className="text-dark mx-3"
+            className="text-dark mx-3 img-nav"
             aria-label="Email"
           >
             <BsEnvelope size={28} />
@@ -44,7 +44,7 @@ function App() {
             href="https://www.instagram.com/flambow__/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-dark mx-3"
+            className="text-dark mx-3 img-nav"
             aria-label="Instagram"
           >
             <BsInstagram size={24} />
@@ -53,7 +53,7 @@ function App() {
             href="https://www.facebook.com/profile.php?id=61570522210745"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-dark mx-3"
+            className="text-dark mx-3 img-nav"
             aria-label="Facebook"
           >
             <BsFacebook size={24} />
