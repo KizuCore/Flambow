@@ -4,15 +4,23 @@ import ProjectSection from "./ProjectSection";
 import NewsletterSection from "./NewsletteSection";
 import Intro from "./Intro";
 import FunctionIntro from "./FuntionSection";
+import LogoFull from "@image/logo-full.svg";
+import LogoIcon from "@image/logo-icon.svg";
 
 function App() {
   return (
     <div className="container-fluid p-0">
       {/* Header */}
-      <header className="d-flex py-4">
-        <h1 className="fw-bold ps-5 header-title" >
-          Flambow
-        </h1>
+      <header className="d-flex py-1">
+        <div className="">
+          <img src={LogoFull}  alt="Logo Flambow Entier" className="ps-5 logo-full"style={{ height: "80px" }}/>
+          <img
+            src={LogoIcon}
+            alt="Logo Flambow"
+            className="logo-icon my-1 ps-3"
+            style={{ height: "50px" }}
+          />
+        </div>
       </header>
 
       {/* Section d'introduction */}
