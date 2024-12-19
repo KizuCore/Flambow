@@ -116,14 +116,16 @@ function FunctionIntro() {
         <h3 className="text-title fw-bold mb-5">
           Découvrez la vidéo de démonstration !
         </h3>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/rDQa5mwbwWQ"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div className="d-flex justify-content-center">
+          <div className="ratio ratio-16x9 w-75 w-md-50">
+            <iframe
+              src="https://www.youtube.com/embed/rDQa5mwbwWQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
   );

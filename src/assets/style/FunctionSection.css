@@ -84,3 +84,8 @@ img {
     }
 }
 
+@media (min-width: 768px) {
+    .ratio.w-md-50 {
+      width: 50% !important;
+    }
+  }
