@@ -52,6 +52,14 @@ section {
   margin-left: 100px;
 }
 
+/* ICONES */
+.logo-full {
+  display: block;
+}
+.logo-icon {
+  display: none;
+}
+
 /* Responsive Mobile */
 @media (max-width: 768px) {
 
@@ -119,4 +127,15 @@ section {
     padding-left: 0;
     padding-right: 0;
   }
+
+  /* ICONES */
+  .logo-full {
+    display: none;
+  }
+  .logo-icon {
+    display: block;
+  }
 }
+
+
+
