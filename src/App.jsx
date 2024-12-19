@@ -5,7 +5,7 @@ import NewsletterSection from "./NewsletteSection";
 import Intro from "./Intro";
 import FunctionIntro from "./FuntionSection";
 import LogoFull from "@image/logo-full.svg";
-import LogoIcon from "@image/logo-white-icon.svg";
+import LogoIcon from "@image/logo-icon.svg";
 
 // Import des icônes de react-icons
 import { BsEnvelope, BsInstagram, BsFacebook } from "react-icons/bs";
