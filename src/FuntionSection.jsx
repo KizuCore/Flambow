@@ -13,7 +13,7 @@ function FunctionIntro() {
           </h2>
           <p className="text-one pt-4">
             <span className="fw-bold text-title">
-              Jeunes ou seniors, vos compétences nous intéressent !
+              Faites le lien : les seniors enseignent aux jeunes, et vice versa !
             </span>
           </p>
           <p className="text-title">
