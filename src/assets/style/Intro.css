@@ -25,7 +25,6 @@
 
 /* Fond de la section */
 .bg-landing {
-    background-image: url("../images/wallpaper.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
