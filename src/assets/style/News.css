@@ -18,7 +18,7 @@
 /* Style input */
 .email-input {
   background-color: rgba(247, 240, 224, 1);
-  color: rgba(19, 60, 92, 1);
+  color: #1B1725 ;
   font-size: 24px;
   border: none;
   padding: 15px 20px; 
@@ -28,17 +28,17 @@
 
 /* Style du texte placeholder */
 .email-input::placeholder {
-  color: rgba(19, 60, 92, 1); 
+  color: #1B1725 ; 
   opacity: 1; 
 }
 
 .email-input::-webkit-input-placeholder { /* Chrome, Safari */
-  color: rgba(19, 60, 92, 1);
+  color: #1B1725 ;
   opacity: 1;
 }
 
 .email-input:focus {
-  color: rgba(19, 60, 92, 1); /* Maintient */
+  color: #1B1725 ; /* Maintient */
   background-color: rgba(247, 240, 224, 1);
 }
 
@@ -65,7 +65,7 @@
 }
 
 .arrow-btn:hover .arrow-path {
-  fill: rgba(36, 150, 159, 1); 
+  fill: #787FDC; 
 }
 
 /* Style global form */

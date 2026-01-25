@@ -2,7 +2,7 @@
 .title-secondary {
     font-size: 36px;
     line-height: 44px;
-    color: rgba(19, 60, 92, 1);
+    color: #1B1725 ;
     font-weight: 400;
 }
 
@@ -11,7 +11,7 @@
     font-size: 28px;
     line-height: 34px;
     font-weight: 700;
-    color: rgba(19, 60, 92, 1);
+    color: #1B1725 ;
     background-color: #FFEB53;
     border: none;
     border-radius: 20px;
@@ -20,7 +20,7 @@
 
 .button-flambow:hover {
     background-color: rgba(255, 200, 114, 1) !important; 
-    color: rgba(19, 60, 92, 1);
+    color: #1B1725 ;
 }
 
 /* Fond de la section */

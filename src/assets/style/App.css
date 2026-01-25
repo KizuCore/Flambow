@@ -3,19 +3,21 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
-
+.img-nav{
+  color: #ffffff !important;
+}
 .img-nav:hover{
-  color: rgba(36, 150, 159, 1) !important;
+  color: #787FDC !important;
   transition: opacity 0.3s ease;
 }
 
 header {
-  background-color: #ffffff ;
+  background-color: #000000 ;
 }
 
 header h1 {
   font-size: 2.5rem;
-  color: rgba(19, 60, 92, 1);
+  color: #1B1725 ;
   margin-left: 100px;
 }
 
@@ -45,12 +47,12 @@ section {
 }
 
 .dark-blue {
-  color: rgba(19, 60, 92, 1);
+  color: #1B1725 ;
 }
 
 /* Fond bleu sombre */
 .bg-dark-blue {
-  background-color: rgba(19, 60, 92, 1);
+  background-color: #1B1725 ;
 }
 
 .header-title {
@@ -66,7 +68,7 @@ section {
 }
 
 .custom-spinner {
-  color: rgba(19, 60, 92, 1);
+  color: #1B1725 ;
 }
 
 
