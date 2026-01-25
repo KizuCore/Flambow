@@ -13,19 +13,19 @@ function App() {
   return (
     <div className="container-fluid p-0">
       {/* Header */}
-      <header className="d-flex justify-content-between align-items-center py-1 px-5">
+      <header className="d-flex justify-content-between align-items-center py-3 px-5">
         {/* Logo */}
         <div className="d-flex align-items-center">
           <img
             src={LogoFull}
             alt="Logo Flambow Entier"
             className="ps-3 logo-full"
-            style={{ height: "80px" }}
+            style={{ height: "50px" }}
           />
           <img
             src={LogoIcon}
             alt="Logo Flambow"
-            className="logo-icon my-1 ps-3"
+            className="logo-icon my-1 ps-"
             style={{ height: "50px" }}
           />
         </div>
