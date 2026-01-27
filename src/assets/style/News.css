@@ -17,7 +17,7 @@
 
 /* Style input */
 .email-input {
-  background-color: rgba(247, 240, 224, 1);
+  background-color: #fff;
   color: #1B1725 ;
   font-size: 24px;
   border: none;
@@ -39,13 +39,13 @@
 
 .email-input:focus {
   color: #1B1725 ; /* Maintient */
-  background-color: rgba(247, 240, 224, 1);
+  background-color: #fff;
 }
 
 
 /* Style du bouton flèche */
 .arrow-btn {
-  background-color: rgba(247, 240, 224, 1);
+  background-color: #fff;
   border: none;
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@
 }
 
 .arrow-btn:hover {
-  background-color: rgb(238, 228, 202);
+  background-color: #E5EBFF;
 }
 
 /* Style icône SVG */
@@ -75,8 +75,23 @@
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
+.newsLettercontainer {
+      background-color: #787FDC;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 80px 100px;
+}
 /* Responsive pour mobile */
 @media (max-width: 768px) {
+
+  .newsLettercontainer {
+    padding: 12px 20px;
+}
+
+.text-news {
+  font-size: 18px;
+}
+
 
   .email-input {
 
@@ -93,4 +108,6 @@
     height: 20px;
   }
 }
+
+
 
