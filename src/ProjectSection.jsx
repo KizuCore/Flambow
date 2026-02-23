@@ -1,44 +1,42 @@
 import loneliness from "@image/loneliness.svg";
-import accessControl from "@image/access-control.svg";
 import knowledge from "@image/knowledge.svg";
-import "@style/ProjectSection.css";
+import accessControl from "@image/access-control.svg";
 
 function ProjectSection() {
   return (
-    <section className="bg-project py-5">
-      <div className="container pt-5">
-        {/* Titre */}
-        <div className="text-center b-5">
-          <h2 className="fw-bold title dark-blue">Un projet qui agit pour demain</h2>
-        </div>
+    <section className="how-does-it-work2">
+      <svg className="project-background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <line x1="0" y1="50" x2="100" y2="50" stroke="#cccccc" strokeWidth="1" opacity="0.3" />
+      </svg>
 
-        {/* Cartes */}
-        <div className="row text-center py-5">
-          {/* Carte 1 */}
-          <div className="col-md-4 mb-4">
-            <img src={loneliness} alt="Isolement social" className="mb-5" style={{ height: "140px" }} />
-            <h4 className="fw-bold blue-cyan pb-4">Isolement social</h4>
-            <p className="text-justify px-4 dark-blue">
-            Flambow vise à <span className="fw-bold">rassembler des personnes de tout âge</span> autour de l’apprentissage de compétences et de connaissances. Notre projet vise donc à réduire l’isolement social de <span className="fw-bold">personnes socialement désengagées</span> (Etudiants post-covid, personnes âgées isolées géographiquement).
-            </p>
-          </div>
+      <div className="project-container">
+        <div className="project-inner">
+          <h2 className="un-projet-qui-agit-pour-demain">Un projet qui agit pour demain</h2>
 
-          {/* Carte 2 */}
-          <div className="col-md-4 mb-4">
-            <img src={accessControl} alt="Fracture numérique" className="mb-5" style={{ height: "140px" }} />
-            <h4 className="fw-bold blue-cyan pb-4">Fracture numérique</h4>
-            <p className="dark-blue text-justify px-4">
-            La fracture numérique désigne les <span className="fw-bold">inégalités dans l&#39;usage et l&#39;accès aux technologies</span>. Notre projet se veut aussi accessible que possible afin de réduire cette fracture. Elle encourage aussi une <span className="fw-bold">reconnexion des personnes âgées</span> par un partage de connaissance avec des personnes plus connectées.
-            </p>
-          </div>
+          <div className="project-cards-grid">
+            <div className="project-card">
+              <img src={loneliness} alt="Isolement social" className="vector3" />
+              <h3 className="isolement-social">Isolement social</h3>
+              <p className="flambow-vise-rassembler-des-personnes-de-tout-ge-autour-de-l-apprentissage-de-comp-tences-et-de-connaissances-notre-projet-vise-donc-r-duire-l-isolement-social-de-personnes-socialement-d-sengag-es-etudiants-post-covid-personnes-g-es-isol-es-g-ographiquement">
+                Flambow vise à rassembler des personnes de tout âge autour de l&apos;apprentissage de compétences et de connaissances. Notre projet vise donc à réduire l&apos;isolement social de personnes socialement désengagées (Etudiants post-covid, personnes âgées isolées géographiquement).
+              </p>
+            </div>
 
-          {/* Carte 3 */}
-          <div className="col-md-4 mb-4">
-            <img src={knowledge} alt="Transmission" className="mb-5" style={{ height: "140px" }} />
-            <h4 className="fw-bold blue-cyan pb-4">Transmission</h4>
-            <p className="dark-blue text-justify px-4">
-            Nous voulons <span className="fw-bold">partager le flambeau de la connaissance</span> afin que des savoirs ancestraux ne se perdent pas au fil des générations. Notre projet s’inscrit donc dans une démarche de <span className="fw-bold">transmission et d’échange des compétences</span> entre particuliers.
-            </p>
+            <div className="project-card">
+              <img src={knowledge} alt="Transmission" className="vector4" />
+              <h3 className="transmission">Transmission</h3>
+              <p className="nous-voulons-partager-le-flambeau-de-la-connaissance-afin-que-des-savoirs-ancestraux-ne-se-perdent-pas-au-fil-des-g-n-rations-notre-projet-s-inscrit-donc-dans-une-d-marche-de-transmission-et-d-change-des-comp-tences-entre-particuliers">
+                Nous voulons partager le flambeau de la connaissance afin que des savoirs ancestraux ne se perdent pas au fil des générations. Notre projet s&apos;inscrit donc dans une démarche de transmission et d&apos;échange des compétences entre particuliers.
+              </p>
+            </div>
+
+            <div className="project-card">
+              <img src={accessControl} alt="Fracture numérique" className="vector5" />
+              <h3 className="fracture-num-rique">Fracture numérique</h3>
+              <p className="la-fracture-num-rique-d-signe-les-in-galit-s-dans-l-usage-et-l-acc-s-aux-technologies-notre-projet-se-veut-aussi-accessible-que-possible-afin-de-r-duire-cette-fracture-elle-encourage-aussi-une-reconnexion-des-personnes-g-es-par-un-partage-de-connaissance-avec-des-personnes-plus-connect-es">
+                La fracture numérique désigne les inégalités dans l&apos;usage et l&apos;accès aux technologies. Notre projet se veut aussi accessible que possible afin de réduire cette fracture. Elle encourage aussi une reconnexion des personnes âgées par un partage de connaissance avec des personnes plus connectées.
+              </p>
+            </div>
           </div>
         </div>
       </div>

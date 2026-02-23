@@ -1,0 +1,19 @@
+@import './header.css';
+@import './hero.css';
+
+/* ===== MAIN DESKTOP LAYOUT ===== */
+.desktop,
+.desktop * {
+  box-sizing: border-box;
+}
+
+.desktop {
+  background: var(--background, #fbfcff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}

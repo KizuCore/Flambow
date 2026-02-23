@@ -1,0 +1,10 @@
+﻿/* central stylesheet importing partials */
+
+@import "./fonts.css";
+@import "./variables.css";
+@import "./base.css";
+@import "./layout.css";
+@import "./sections.css";
+@import "./responsive.css";
+
+/* NOTE: keep this file for legacy import alias @style/globals.css */

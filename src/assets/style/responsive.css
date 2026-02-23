@@ -1,0 +1,137 @@
+
+/* ===== MOBILE RESPONSIVE STYLES ===== */
+@media (max-width: 768px) {
+  .how-does-it-work {
+    padding: 32px 24px 32px 24px;
+  }
+
+  .frame-26 {
+    align-self: stretch;
+  }
+
+  .comment-a-fonctionne {
+    font-family: var(--header-1-mobile-font-family);
+    font-size: var(--header-1-mobile-font-size);
+    font-weight: var(--header-1-mobile-font-weight);
+  }
+
+  .jeunes-ou-seniors-vos-comp-tences-nous-int-ressent-flambow-met-en-relation-des-personnes-de-diff-rents-ges-afin-qu-il-changent-leur-connaissance-et-leurs-comp-tences-dans-des-cours-ludiques-en-petit-comit-s {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+  }
+
+  .steps-grid {
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+  }
+
+  .step-card {
+    align-self: stretch;
+    width: 100%;
+  }
+
+  .step-card-content {
+    top: 0 !important;
+  }
+
+  .cta-box-primary {
+    padding: 64px 24px 64px 24px;
+  }
+
+  .tu-souhaites-partager-tes-comp-tences {
+    font-family: var(--header-1-mobile-font-family);
+    font-size: var(--header-1-mobile-font-size);
+    font-weight: var(--header-1-mobile-font-weight);
+  }
+
+  .how-does-it-work2 {
+    padding: 64px 64px 128px 64px;
+  }
+
+  .project-container {
+    padding: 64px 24px 64px 24px;
+  }
+
+  .project-inner {
+    gap: 64px;
+  }
+
+  .un-projet-qui-agit-pour-demain {
+    font-family: var(--header-1-mobile-font-family);
+    font-size: var(--header-1-mobile-font-size);
+    font-weight: var(--header-1-mobile-font-weight);
+  }
+
+  .project-cards-grid {
+    flex-direction: column;
+  }
+
+  .project-card {
+    gap: 12px;
+    align-self: stretch;
+  }
+
+  .video-container {
+    gap: 32px;
+  }
+
+  .video-content {
+    gap: 12px;
+  }
+
+  .video-header {
+    gap: 12px;
+  }
+
+  .vid-o-de-d-monstration {
+    font-family: var(--header-1-mobile-font-family);
+    font-size: var(--header-1-mobile-font-size);
+    font-weight: var(--header-1-mobile-font-weight);
+  }
+
+  .d-couvrez-la-premi-re-vid-o-de-d-monstration-de-notre-application {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+  }
+
+  .rectangle-4 {
+    width: 100%;
+    height: 247px;
+  }
+
+  .frame-303 {
+    padding: 32px 12px 32px 12px;
+  }
+
+  .frame-265 {
+    gap: 64px;
+  }
+
+  .frame-34 {
+    gap: 24px;
+  }
+
+  .rejoignez-l-aventure {
+    font-family: var(--header-1-mobile-font-family);
+    font-size: var(--header-1-mobile-font-size);
+    font-weight: var(--header-1-mobile-font-weight);
+  }
+
+  .inscrivez-vous-la-newletter-pour-tre-au-courant-des-derni-res-actualit-s-de-flambow {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+  }
+
+  .frame-312 {
+    width: 100%;
+    height: 43px;
+  }
+
+  .scrolling {
+    display: none;
+  }
+}
