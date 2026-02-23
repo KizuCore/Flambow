@@ -1,0 +1,39 @@
+.video-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.video-container {
+  background: var(--contrast-light, #ffffff);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.video-placeholder {
+  background: #d9d9d9;
+  border-radius: 50px;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 1050px;
+  height: 529px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+
+  .video-container {
+    gap: 32px;
+    padding: 24px;
+  }
+
+}

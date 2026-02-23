@@ -56,15 +56,6 @@ function Hero() {
           </p>
           <Button label="Découvrir le prototype" redirectTo="https://www.figma.com/proto/6ARmwCBgskBJmsZXScj0MS/Flambow?node-id=17-537&t=nzYC9pOs5QW28f3T-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=131%3A215&show-proto-sidebar=1"/>
         </div>
-
-        <svg
-          className="scrolling"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <path d="M12 2v16m0 4v0m0 0l-4-4m4 4l4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
       </div>
     </section>
   );
