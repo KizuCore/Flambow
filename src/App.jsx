@@ -1,9 +1,9 @@
 import "@style/globals.css";
-import ProjectSection from "./ProjectSection";
+import ActForTomorrowSection from "./ActForTomorrowSection";
 import NewsletterSection from "./NewsletterSection";
 import VideoSection from "./VideoSection";
 import Hero from "./Hero";
-import FunctionSection from "./FunctionSection";
+import HowDoesItWorkSection from "./HowDoesItWorkSection";
 import Navbar from "./Navbar";
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
       <Hero />
 
       {/* Section comment ça fonctionne */}
-      <FunctionSection />
+      <HowDoesItWorkSection />
 
       {/* Section de présentation du projet */}
-      <ProjectSection />
+      <ActForTomorrowSection />
 
       {/* Section vidéo de démonstration */}
       <VideoSection />
