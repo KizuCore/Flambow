@@ -5,13 +5,12 @@
 
 @font-face {
   font-family: "Sofia Pro";
-  src:
-    url("../fonts/Sofia\ Pro\ Regular\ Az.otf"),
+  src: url("../fonts/Sofia Pro Regular Az.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Newake-Demo";
-  src: url("../fonts/NewakeFont-Demo.otf");
+  src: url("../fonts/NewakeFont-Demo.otf") format("opentype");
 }
 
 :root {
