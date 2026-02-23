@@ -95,7 +95,7 @@ function Navbar() {
       {/* Prototype Button */}
       <Button
         label="Découvrir le prototype"
-        redirectTo="https://www.figma.com/proto/6ARmwCBgskBJmsZXScj0MS/Flambow?node-id=17-537&t=nzYC9pOs5QW28f3T-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=131%3A215&show-proto-sidebar=1"
+        redirectTo="https://www.figma.com/proto/6ARmwCBgskBJmsZXScj0MS/Flambow?node-id=131-215&t=oMkockTeGWfooJgP-9&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=131%3A215&show-proto-sidebar=1"
       />
     </header>
   );
