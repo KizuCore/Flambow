@@ -104,6 +104,7 @@
 
     .input-group input {
         width: 100%;
+        text-align: center !important;
     }
 
     .input-group button {
