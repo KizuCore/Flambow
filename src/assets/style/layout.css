@@ -1,0 +1,73 @@
+@import './header.css';
+@import './hero.css';
+@import './howDoesItWork.css';
+@import './actForTomorrow.css';
+@import './videoSection.css';
+@import './newsletter.css';
+
+/* ===== MAIN DESKTOP LAYOUT ===== */
+.desktop,
+.desktop * {
+  box-sizing: border-box;
+}
+
+.desktop {
+  background: var(--background, #fbfcff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+  padding: 64px 200px 128px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+
+  h1 {
+    text-align: center;
+    color: var(--primary, #787fdc);
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+section.wide {
+  max-width: 2400px;
+}
+
+/* ===== TABLET RESPONSIVE STYLES ===== */
+@media (max-width: 1560px) {
+  section {
+    padding: 32px 24px 32px 24px;
+  }
+}
+
+/* ===== MOBILE RESPONSIVE STYLES ===== */
+@media (max-width: 768px) {
+  section {
+    padding: 32px 24px 32px 24px;
+  }
+}

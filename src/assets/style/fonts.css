@@ -1,0 +1,59 @@
+/* ===== FONT IMPORTS & FACES ===== */
+
+/* Google font for headers */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+@font-face {
+  font-family: "Sofia Pro";
+  src:
+    url("../fonts/Sofia\ Pro\ Regular\ Az.otf"),
+}
+
+@font-face {
+  font-family: "Newake-Demo";
+  src: url("../fonts/NewakeFont-Demo.otf");
+}
+
+:root {
+  /* Headers */
+  --header-1-font-family: "Bricolage Grotesque", sans-serif;
+  --header-1-font-size: 48px;
+  --header-1-font-weight: 700;
+
+  --header-1-mobile-font-family: "Bricolage Grotesque", sans-serif;
+  --header-1-mobile-font-size: 40px;
+  --header-1-mobile-font-weight: 700;
+
+  --header-2-font-family: "Bricolage Grotesque", sans-serif;
+  --header-2-font-size: 32px;
+  --header-2-font-weight: 700;
+
+  --header-2-mobile-font-family: "Bricolage Grotesque", sans-serif;
+  --header-2-mobile-font-size: 32px;
+  --header-2-mobile-font-weight: 700;
+
+  --header-3-font-family: 'Sofia Pro', sans-serif;
+  --header-3-font-size: 28px;
+  --header-3-font-weight: 400;
+
+  --header-3-mobile-font-family: 'Sofia Pro', sans-serif;
+  --header-3-mobile-font-size: 24px;
+  --header-3-mobile-font-weight: 400;
+
+  /* Buttons */
+  --button-font-family: "Newake", sans-serif;
+  --button-font-size: 20px;
+  --button-font-weight: 400;
+
+  --button-mobile-font-size: 16px;
+  --button-mobile-font-weight: 400;
+
+  /* Body */
+  --body-font-family: 'Sofia Pro', sans-serif;
+  --body-font-size: 28px;
+  --body-font-weight: 400;
+
+  --body-mobile-font-family: 'Sofia Pro', sans-serif;
+  --body-mobile-font-size: 18px;
+  --body-mobile-font-weight: 400;
+}

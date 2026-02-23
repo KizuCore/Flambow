@@ -1,16 +1,18 @@
-import "@style/Intro.css";
-import oldYoung from "@image/old-young.png";
-function Intro() {
+import heroImage from "@image/hero-Image.png";
+import Button from "./assets/components/Buttons/Button";
+
+function Hero() {
   return (
-    <section className="bg-landing py-5 position-relative">
-      <div className="container">
-        <div className="row">
-          <div className="col-12 d-flex justify-content-center">
-            <div className="d-flex flex-column justify-content-center mt-5">
-                        <svg
-            className="ps-3"
-            style={{ height: "100px" }}
-            alt="Logo Flambow Entier"
+    <section className="hero-section">
+      <div
+        className="hero"
+        style={{
+          backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(102, 102, 102, 0) 100%), url(${heroImage})`,
+        }}
+      >
+        <div className="logo-container">
+          <svg
+            className="logo"
             xmlns="http://www.w3.org/2000/svg"
             height="135"
             viewBox="0 0 422 135"
@@ -18,73 +20,45 @@ function Intro() {
           >
             <path
               d="M0 64.3687H54.5333V74.6333H12.8646V92.6755H53.6063V103.053H12.8646V132.807H0V64.3687Z"
-              fill="#1B1725"
+              fill="#ffffff"
             />
             <path
               d="M66.1318 64.3687H78.9964V132.784H66.1318V64.3687Z"
-              fill="#1B1725"
+              fill="#ffffff"
             />
             <path
               d="M88.4244 120.033C88.4244 111.419 94.0315 106.444 109.994 104.477C117.138 103.55 122.542 102.601 122.542 97.8531C122.542 94.1226 119.738 91.319 113.317 91.319C105.743 91.319 103.46 95.8861 103.573 99.8201H90.821C90.301 92.6755 97.242 83.0213 112.797 83.0213C131.246 83.0213 135.293 92.6528 135.293 100.543V132.784H122.542V125.414C121.502 129.551 115.691 134.028 105.743 134.028C94.642 134.028 88.4244 128.421 88.4244 120.033ZM122.723 113.182V106.761C121.796 108.525 118.585 109.881 111.011 111.125C105.2 112.052 100.859 114.019 100.859 119.309C100.859 123.56 103.55 126.25 109.677 126.25C117.342 126.25 122.745 121.163 122.745 113.182H122.723Z"
-              fill="#1B1725"
+              fill="#ffffff"
             />
             <path
               d="M191.884 93.6931C195.094 87.792 200.792 83.2249 209.406 83.2249C227.132 83.2249 231.292 94.2131 231.292 103.867V132.784H218.337V103.867C218.337 96.8131 215.217 92.3589 207.869 92.3589C201.131 92.3589 193.761 96.4061 193.761 107.191V132.807H180.805V103.89C180.805 96.8358 177.798 92.3815 171.377 92.3815C164.956 92.3815 157.269 96.4287 157.269 107.213V132.83H144.405V83.9031H157.269V93.1278C159.033 86.9103 165.974 83.2699 172.915 83.2699C183.79 83.2699 189.397 87.9275 191.884 93.738V93.6931Z"
-              fill="#1B1725"
+              fill="#ffffff"
             />
             <path
               d="M240.087 64.3687H252.951V86.6613L252.228 94.3259C254.715 86.8648 260.118 82.7047 270.066 82.7047C285.418 82.7047 295.57 94.0096 295.57 108.095C295.57 122.181 285.418 133.711 270.066 133.711C260.118 133.711 254.941 129.868 252.431 123.04L252.951 128.421V132.784H240.2L240.087 64.3687ZM282.072 108.118C282.072 98.6897 276.781 91.9521 267.76 91.9521C258.739 91.9521 252.115 97.7627 252.115 108.118C252.115 118.473 258.445 124.51 267.76 124.51C277.075 124.51 282.072 117.659 282.072 108.118Z"
-              fill="#1B1725"
+              fill="#ffffff"
             />
             <path
               d="M352.658 83.8578H365.296L373.594 117.659L381.778 83.8578H392.879L401.177 117.749L409.361 83.8578H422L408.005 132.784H394.123L387.385 100.86L380.535 132.784H366.54L352.658 83.8578Z"
-              fill="#1B1725"
+              fill="#ffffff"
             />
             <path
               d="M335.316 134.978C329.732 134.978 324.441 133.553 319.761 130.772C314.403 131.269 308.592 130.863 302.488 129.483C291.681 127.064 283.994 120.643 280.874 111.419C276.555 98.667 281.348 82.7049 294.01 67.6245C298.87 61.8365 304.138 56.8851 309.248 52.0919C318.721 43.2064 326.883 35.5418 326.883 27.1538C326.883 21.0945 322.701 14.2439 314.109 6.21756L319.942 0C330.501 9.88026 335.407 18.4944 335.407 27.1538C335.407 39.2271 325.527 48.4969 315.081 58.3319C310.152 62.9442 305.065 67.7374 300.544 73.1184C289.985 85.6891 285.667 98.9834 288.945 108.705C291.116 115.104 296.429 119.422 304.342 121.186C306.354 121.638 308.321 121.955 310.22 122.181C302.872 112.481 300.724 99.5939 305.065 90.098C308.683 82.1621 316.166 77.7987 326.16 77.7987C336.153 77.7987 344.745 82.3656 348.611 90.3466C352.748 98.893 351.143 109.813 344.541 118.156C341.805 121.615 338.459 124.396 334.616 126.477C337.17 126.544 339.974 126.228 343.094 125.301C356.75 121.276 363.962 113.114 363.94 101.674C363.894 85.9152 349.719 66.9009 334.751 62.5825L337.125 54.398C355.913 59.8242 372.418 81.9134 372.463 101.651C372.463 110.582 369.004 126.567 345.491 133.485C342.054 134.503 338.64 135 335.362 135L335.316 134.978ZM326.137 86.3224C319.513 86.3224 315.013 88.7868 312.798 93.6252C309.632 100.589 311.916 111.238 318.134 118.405C319.06 119.49 320.304 120.711 321.819 121.887C328.489 120.688 334.005 117.636 337.804 112.843C342.325 107.146 343.569 99.5713 340.878 94.0546C338.459 89.0806 333.214 86.3224 326.115 86.3224H326.137Z"
-              fill="#787FDC"
+              fill="#787fdc"
             />
           </svg>
-              <h1 className="lead title-secondary pb-5">
-                vous souhaite la bienvenue !
-              </h1>
-              <button
-                className="btn button-flambow mb-5 py-3 px-5 position-relative"
-                href="https://www.figma.com/proto/bubsLIrWj3jZFcVGyW6tS9/Maquettes?node-id=1-6&t=qXto5S8tiGBm86pg-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=19%3A2090&show-proto-sidebar=1"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => {
-                  window.open(
-                    "https://www.figma.com/proto/bubsLIrWj3jZFcVGyW6tS9/Maquettes?node-id=1-6&t=qXto5S8tiGBm86pg-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=19%3A2090&show-proto-sidebar=1",
-                    "_blank",
-                    "noopener,noreferrer"
-                  );
-                }}
-              >
-                Découvrez le prototype
-                {/* SVG Eye */}
-                <span className="eye-icon ms-4">
-                  <svg alt="Eye close" className="eye-close" width="36" height="27" viewBox="0 0 36 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M33.1591 10.5008C30.2167 16.4608 24.5313 20.4999 18.0001 20.4999M18.0001 20.4999C11.4687 20.4999 5.78326 16.4608 2.84172 10.5M18.0001 20.4999V25.5M30.5 14.5361L34 17.9998M25.125 18.781L27.2633 22.9999M5.50001 14.5361L2 17.9998M10.875 18.781L8.73688 22.9999" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                  <svg alt="Eye close" className="eye-open" width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M24 16.0001C24 19.3138 21.3137 22.0001 18 22.0001C14.6863 22.0001 12 19.3138 12 16.0001C12 12.6864 14.6863 10.0001 18 10.0001C21.3137 10.0001 24 12.6864 24 16.0001Z" stroke="currentColor" strokeWidth="3"/>
-                    <path d="M33.159 16.5009C30.2167 22.4609 24.5313 26.5 18 26.5C11.4687 26.5 5.78321 22.4609 2.84167 16.5001" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M33.1591 16.4992C30.2167 10.5393 24.5313 6.50017 18.0001 6.50017M18.0001 6.50017C11.4687 6.50017 5.78326 10.5393 2.84172 16.5001M18.0001 6.50017V1.50006M30.5 12.464L34 9.00023M25.125 8.21904L27.2633 4.00012M5.50001 12.464L2 9.00023M10.875 8.21904L8.73688 4.00012" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </span>
-              </button>
-            </div>
-          </div>
+          <h1>vous souhaite la bienvenue !</h1>
+        </div>
+
+        <div className="blur-container">
+          <p>
+            Connecter les générations autour de l&apos;apprentissage de compétences, c&#39;est notre ambition !
+          </p>
+          <Button label="Découvrir le prototype" redirectTo="https://www.figma.com/proto/6ARmwCBgskBJmsZXScj0MS/Flambow?node-id=17-537&t=nzYC9pOs5QW28f3T-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=131%3A215&show-proto-sidebar=1"/>
         </div>
       </div>
-      <img
-        src={oldYoung}
-        alt="Générations connectées"
-        className="image-bottom-left"
-      />
     </section>
   );
 }
 
-export default Intro;
+export default Hero;

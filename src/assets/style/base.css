@@ -1,0 +1,60 @@
+/* ===== GLOBAL BASE STYLES ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body, p {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  color: var(--contrast-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-1-font-family);
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--header-1-font-size);
+  font-weight: var(--header-1-font-weight);
+}
+
+h2 {
+  font-size: var(--header-2-font-size);
+  font-weight: var(--header-2-font-weight);
+}
+
+h3 {
+  font-family: var(--header-3-font-family);
+  font-size: var(--header-3-font-size);
+  font-weight: var(--header-3-font-weight);
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: var(--header-1-mobile-font-size);
+    font-weight: var(--header-1-mobile-font-weight);
+  }
+
+  h2 {
+    font-size: var(--header-2-mobile-font-size);
+    font-weight: var(--header-2-mobile-font-weight);
+  }
+
+  h3 {
+    font-size: var(--header-3-mobile-font-size);
+    font-weight: var(--header-3-mobile-font-weight);
+  }
+
+  body, p  {
+    font-size: var(--body-mobile-font-size);
+    font-weight: var(--body-mobile-font-weight);
+  }
+  
+}

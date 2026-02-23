@@ -1,0 +1,114 @@
+.newsLettercontainer {
+    background-color: var(--primary, #787fdc);
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    border-radius: 50px;
+    align-items: center;
+
+    h1 {
+        color: white;
+    }
+
+    p {
+        margin-top: 24px;
+    }
+
+    h1, p {
+        text-align: center;
+    }
+
+    .input-group {
+        width: 100%;
+        border-radius: 50px;
+        overflow: hidden;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .input-group input {
+        all: unset;
+        background-color: white;
+        flex: 1;
+        padding: 12px 24px;
+    }
+
+    .input-group input::placeholder {
+        color: var(--primary, #787fdc);
+    }
+
+    .input-group button {
+        all: unset;
+        flex-shrink: 0; 
+        padding: 0 20px;
+        border: none; 
+        cursor: pointer;
+        width: fit-content;
+        background-color: white;
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: background-color 0.3s ease;
+
+         .arrow-icon {
+           color: var(--primary, #787fdc);
+           transition: color 0.3s ease;
+        }
+
+        .arrow-icon {
+           color: var(--primary, #787fdc);
+        }
+    }
+
+    .input-group button:hover {
+        background-color: var(--primary-lighter, #a9a3f5);
+
+        .arrow-icon {
+           color: var(--primary, #787fdc);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .newsLettercontainer {
+        padding: 32px;
+    }
+
+    .input-group {
+        border-radius: 12px;
+    }
+}
+@media (max-width: 450px) {
+
+    section.newsLetter{
+        padding: 0px;
+    }
+
+     .newsLettercontainer {
+        padding: 64px 24px !important;
+        border-radius: 0px;
+    }
+
+    .newsLettercontainer {
+        padding: 12px;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group input {
+        width: 100%;
+    }
+
+    .input-group button {
+        width: 100% !important;
+        margin-top: 12px;
+        padding: 12px 12px !important;
+    }
+}
