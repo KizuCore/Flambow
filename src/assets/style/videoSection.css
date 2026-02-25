@@ -36,4 +36,23 @@
     padding: 24px;
   }
 
+  .video-placeholder {
+    height: 300px;
+    position: relative;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .video-container {
+    gap: 32px;
+    padding: 24px;
+  }
+
+  .video-placeholder {
+    height: 200px;
+    position: relative;
+  }
+
 }
