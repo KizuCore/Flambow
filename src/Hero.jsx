@@ -54,7 +54,8 @@ function Hero() {
           <p>
             Connecter les générations autour de l&apos;apprentissage de compétences, c&#39;est notre ambition !
           </p>
-          <Button label="Testez notre application" redirectTo="https://www.flambow.fr"/>
+          <Button label="Testez notre prototype" redirectTo="https://www.figma.com/proto/6ARmwCBgskBJmsZXScj0MS/Flambow?node-id=131-215&t=oMkockTeGWfooJgP-9&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=131%3A215&show-proto-sidebar=1
+Figma"/>
         </div>
       </div>
     </section>
