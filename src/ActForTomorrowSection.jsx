@@ -4,12 +4,13 @@ import accessControl from "@image/access-control.svg";
 
 function ActForTomorrowSection() {
   return (
-    <section className="wide">
-      <h1>Un projet qui agit pour demain</h1>
+    <section className="relative mx-auto flex w-full max-w-[2400px] flex-col items-center gap-16 px-6 py-8 2xl:px-[200px] 2xl:pb-32 2xl:pt-16">
+      <h1 className="text-center text-[#787fdc]">Un projet qui agit pour demain</h1>
 
-      <div className="project-inner">
+      <div className="relative flex w-full flex-col items-start justify-start gap-16">
+        {/* Tracé décoratif de fond (masqué sur mobile). */}
         <svg
-          className="vector"
+          className="pointer-events-none absolute left-1/2 top-1/2 z-0 w-screen -translate-x-1/2 -translate-y-1/2 max-[1200px]:hidden"
           xmlns="http://www.w3.org/2000/svg"
           width="1728"
           height="428"
@@ -23,43 +24,43 @@ function ActForTomorrowSection() {
             strokeMiterlimit="10"
           />
         </svg>
-        <div className="project-cards-grid">
-          <div className="project-card">
-            <img src={loneliness} alt="Isolement social" className="vector3" />
+        {/* Trois cartes qui présentent les enjeux du projet. */}
+        <div className="relative z-10 flex w-full flex-row items-start justify-start gap-16 rounded-[50px] bg-white/10 p-16 backdrop-blur-[10px] max-[1200px]:flex-col max-[1200px]:p-0">
+          <div className="relative flex flex-1 flex-col items-center justify-start gap-[50px] text-center max-[1200px]:w-full max-[1200px]:gap-3">
+            <img src={loneliness} alt="Isolement social" />
             <h2>Isolement social</h2>
             <p>
-              Flambow vise Ã  rassembler des personnes de tout Ã¢ge autour de
-              l&apos;apprentissage de compÃ©tences et de connaissances. Notre
-              projet vise donc Ã  rÃ©duire l&apos;isolement social de personnes
-              socialement dÃ©sengagÃ©es (Etudiants post-covid, personnes Ã¢gÃ©es
-              isolÃ©es gÃ©ographiquement).
+              Flambow vise à rassembler des personnes de tout âge autour de
+              l&apos;apprentissage de compétences et de connaissances. Notre
+              projet vise donc à réduire l&apos;isolement social de personnes
+              socialement désengagées (Étudiants post-covid, personnes âgées
+              isolées géographiquement).
             </p>
           </div>
 
-          <div className="project-card">
-            <img src={knowledge} alt="Transmission" className="vector4" />
+          <div className="relative flex flex-1 flex-col items-center justify-start gap-[50px] text-center max-[1200px]:w-full max-[1200px]:gap-3">
+            <img src={knowledge} alt="Transmission" />
             <h2>Transmission</h2>
             <p>
               Nous voulons partager le flambeau de la connaissance afin que des
-              savoirs ancestraux ne se perdent pas au fil des gÃ©nÃ©rations. Notre
-              projet s&apos;inscrit donc dans une dÃ©marche de transmission et
-              d&apos;Ã©change des compÃ©tences entre particuliers.
+              savoirs ancestraux ne se perdent pas au fil des générations. Notre
+              projet s&apos;inscrit donc dans une démarche de transmission et
+              d&apos;échange des compétences entre particuliers.
             </p>
           </div>
 
-          <div className="project-card">
+          <div className="relative flex flex-1 flex-col items-center justify-start gap-[50px] text-center max-[1200px]:w-full max-[1200px]:gap-3">
             <img
               src={accessControl}
-              alt="Fracture numÃ©rique"
-              className="vector5"
+              alt="Fracture numérique"
             />
-            <h2>Fracture numÃ©rique</h2>
+            <h2>Fracture numérique</h2>
             <p>
-              La fracture numÃ©rique dÃ©signe les inÃ©galitÃ©s dans l&apos;usage et
-              l&apos;accÃ¨s aux technologies. Notre projet se veut aussi
-              accessible que possible afin de rÃ©duire cette fracture. Elle
-              encourage aussi une reconnexion des personnes Ã¢gÃ©es par un partage
-              de connaissance avec des personnes plus connectÃ©es.
+              La fracture numérique désigne les inégalités dans l&apos;usage et
+              l&apos;accès aux technologies. Notre projet se veut aussi
+              accessible que possible afin de réduire cette fracture. Elle
+              encourage aussi une reconnexion des personnes âgées par un partage
+              de connaissance avec des personnes plus connectées.
             </p>
           </div>
         </div>
@@ -69,3 +70,5 @@ function ActForTomorrowSection() {
 }
 
 export default ActForTomorrowSection;
+
+

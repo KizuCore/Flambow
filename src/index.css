@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("./assets/fonts/Sofia Pro Regular Az.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newake-Demo";
+  src: url("./assets/fonts/NewakeFont-Demo.otf") format("opentype");
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  body {
+    @apply bg-[#fbfcff] font-sofia text-[18px] font-normal text-[#1b1725] md:text-[20px];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply m-0 font-bricolage leading-tight;
+  }
+
+  h1 {
+    @apply text-[40px] font-bold md:text-[48px];
+  }
+
+  h2 {
+    @apply text-[32px] font-bold;
+  }
+
+  h3 {
+    @apply font-sofia text-[24px] font-normal md:text-[28px];
+  }
+
+  p {
+    @apply m-0 font-sofia text-[18px] font-normal md:text-[20px];
+  }
+}

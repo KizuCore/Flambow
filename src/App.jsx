@@ -1,4 +1,3 @@
-import "@style/globals.css";
 import ActForTomorrowSection from "./ActForTomorrowSection";
 import NewsletterSection from "./NewsletterSection";
 import VideoSection from "./VideoSection";
@@ -8,23 +7,13 @@ import Navbar from "./Navbar";
 
 function App() {
   return (
-    <div className="desktop">
-      {/* Header */}
-      <Navbar/>
-
-      {/* Section d'introduction */}
+    <div className="relative flex min-h-screen flex-col overflow-hidden bg-[#fbfcff]">
+      {/* Structure globale de la landing page. */}
+      <Navbar />
       <Hero />
-
-      {/* Section comment ça fonctionne */}
       <HowDoesItWorkSection />
-
-      {/* Section de présentation du projet */}
       <ActForTomorrowSection />
-
-      {/* Section vidéo de démonstration */}
       <VideoSection />
-
-      {/* Section de newsletter */}
       <NewsletterSection />
     </div>
   );

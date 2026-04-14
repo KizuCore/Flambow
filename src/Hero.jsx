@@ -3,16 +3,17 @@ import Button from "./assets/components/Buttons/Button";
 
 function Hero() {
   return (
-    <section className="hero-section">
+    <section className="relative mx-auto flex w-full max-w-[1600px] flex-col items-center gap-12 px-16 pb-32 pt-[188px] max-[768px]:px-4 max-[768px]:pb-8 max-[768px]:pt-40">
       <div
-        className="hero"
+        // Overlay sombre + image de fond pour garantir la lisibilité du texte.
+        className="relative flex w-full flex-col items-start gap-16 overflow-hidden rounded-[50px] bg-cover bg-center bg-no-repeat px-[120px] py-16 max-[1000px]:items-center max-[768px]:gap-8 max-[768px]:px-16 max-[768px]:py-6 max-[600px]:px-4"
         style={{
           backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(102, 102, 102, 0) 100%), url(${heroImage})`,
         }}
       >
-        <div className="logo-container">
+        <div className="relative flex w-full max-w-[780px] flex-col items-start justify-center gap-6 max-[1000px]:items-center">
           <svg
-            className="logo"
+            className="h-auto w-full max-w-[422px]"
             xmlns="http://www.w3.org/2000/svg"
             height="135"
             viewBox="0 0 422 135"
@@ -47,15 +48,18 @@ function Hero() {
               fill="#787fdc"
             />
           </svg>
-          <h1>vous souhaite la bienvenue !</h1>
+          <h1 className="text-white max-[1000px]:text-center">vous souhaite la bienvenue !</h1>
         </div>
 
-        <div className="blur-container">
-          <p>
-            Connecter les générations autour de l&apos;apprentissage de compétences, c&#39;est notre ambition !
+        {/* Bloc d'accroche + bouton principal. */}
+        <div className="relative flex h-fit w-full max-w-[566px] flex-col items-start justify-center gap-8 overflow-hidden rounded-[50px] bg-white/10 px-[38px] py-5 backdrop-blur-[25px] max-[1000px]:items-center max-[768px]:items-center max-[768px]:self-stretch max-[768px]:px-3 max-[768px]:py-12">
+          <p className="text-white max-[1000px]:text-center">
+            Connecter les générations autour de l&apos;apprentissage de compétences, c&apos;est notre ambition !
           </p>
-          <Button label="Testez notre prototype" redirectTo="https://www.figma.com/proto/6ARmwCBgskBJmsZXScj0MS/Flambow?node-id=131-215&t=oMkockTeGWfooJgP-9&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=131%3A215&show-proto-sidebar=1
-Figma"/>
+          <Button
+            label="Testez notre prototype"
+            redirectTo="https://www.figma.com/proto/6ARmwCBgskBJmsZXScj0MS/Flambow?node-id=131-215&t=oMkockTeGWfooJgP-9&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=131%3A215&show-proto-sidebar=1"
+          />
         </div>
       </div>
     </section>
