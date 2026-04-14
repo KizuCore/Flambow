@@ -8,7 +8,7 @@ function ActForTomorrowSection() {
       <h1 className="text-center text-[#787fdc]">Un projet qui agit pour demain</h1>
 
       <div className="relative flex w-full flex-col items-start justify-start gap-16">
-        {/* Tracé décoratif de fond (masqué sur mobile). */}
+        {/* TracÃ© dÃ©coratif de fond (masquÃ© sur mobile). */}
         <svg
           className="pointer-events-none absolute left-1/2 top-1/2 z-0 w-screen -translate-x-1/2 -translate-y-1/2 max-[1200px]:hidden"
           xmlns="http://www.w3.org/2000/svg"
@@ -24,17 +24,17 @@ function ActForTomorrowSection() {
             strokeMiterlimit="10"
           />
         </svg>
-        {/* Trois cartes qui présentent les enjeux du projet. */}
+        {/* Trois cartes qui prÃ©sentent les enjeux du projet. */}
         <div className="relative z-10 flex w-full flex-row items-start justify-start gap-16 rounded-[50px] bg-white/10 p-16 backdrop-blur-[10px] max-[1200px]:flex-col max-[1200px]:p-0">
           <div className="relative flex flex-1 flex-col items-center justify-start gap-[50px] text-center max-[1200px]:w-full max-[1200px]:gap-3">
             <img src={loneliness} alt="Isolement social" />
             <h2>Isolement social</h2>
             <p>
-              Flambow vise à rassembler des personnes de tout âge autour de
-              l&apos;apprentissage de compétences et de connaissances. Notre
-              projet vise donc à réduire l&apos;isolement social de personnes
-              socialement désengagées (Étudiants post-covid, personnes âgées
-              isolées géographiquement).
+              Flambow vise Ã  rassembler des personnes de tout Ã¢ge autour de
+              l'apprentissage de compÃ©tences et de connaissances. Notre
+              projet vise donc Ã  rÃ©duire l'isolement social de personnes
+              socialement dÃ©sengagÃ©es (Ã©tudiants post-covid, personnes Ã¢gÃ©es
+              isolÃ©es gÃ©ographiquement).
             </p>
           </div>
 
@@ -43,24 +43,24 @@ function ActForTomorrowSection() {
             <h2>Transmission</h2>
             <p>
               Nous voulons partager le flambeau de la connaissance afin que des
-              savoirs ancestraux ne se perdent pas au fil des générations. Notre
-              projet s&apos;inscrit donc dans une démarche de transmission et
-              d&apos;échange des compétences entre particuliers.
+              savoirs ancestraux ne se perdent pas au fil des gÃ©nÃ©rations. Notre
+              projet s'inscrit donc dans une dÃ©marche de transmission et
+              d'Ã©change des compÃ©tences entre particuliers.
             </p>
           </div>
 
           <div className="relative flex flex-1 flex-col items-center justify-start gap-[50px] text-center max-[1200px]:w-full max-[1200px]:gap-3">
             <img
               src={accessControl}
-              alt="Fracture numérique"
+              alt="Fracture numÃ©rique"
             />
-            <h2>Fracture numérique</h2>
+            <h2>Fracture numÃ©rique</h2>
             <p>
-              La fracture numérique désigne les inégalités dans l&apos;usage et
-              l&apos;accès aux technologies. Notre projet se veut aussi
-              accessible que possible afin de réduire cette fracture. Elle
-              encourage aussi une reconnexion des personnes âgées par un partage
-              de connaissance avec des personnes plus connectées.
+              La fracture numÃ©rique dÃ©signe les inÃ©galitÃ©s dans l'usage et
+              l'accs aux technologies. Notre projet se veut aussi
+              accessible que possible afin de rÃ©duire cette fracture. Elle
+              encourage aussi une reconnexion des personnes Ã¢gÃ©es par un partage
+              de connaissance avec des personnes plus connectÃ©es.
             </p>
           </div>
         </div>
