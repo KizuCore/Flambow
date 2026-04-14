@@ -1,47 +1,89 @@
-# 🔥 Flambow – Prototype Web App
+﻿# Flambow - Landing Page
 
-**Flambow** est une application web responsive développée avec **React**, **Bootstrap** et du **CSS personnalisé**. Il s’agit du **premier prototype** d’une plateforme qui facilite les échanges de compétences entre générations. 
+Flambow est un prototype d'application web qui vise à connecter les générations autour du partage de compétences.
 
-Délai : 1 semaine pour la conception de tout le projet ainsi que du site.
+Le projet actuel est une landing page React présentant :
+- la proposition de valeur,
+- le fonctionnement en 3 étapes,
+- les impacts du projet,
+- une vidéo de démonstration,
+- une inscription newsletter via JSONBin.
 
-## 🚀 Fonctionnalités
+## Stack technique
 
-- Interface responsive et moderne
-- UX fluide avec animations légères
-- Section de présentation, fonctionnement et impact du projet
-- Intégration d’une vidéo de démonstration YouTube
-- Formulaire d'inscription à la newsletter (via API JSONBin)
-- Liens vers les réseaux sociaux (Instagram, Facebook, Email)
+- React 18
+- Vite 6
+- Tailwind CSS 3
+- Axios
+- ESLint
 
-## 🛠️ Technologies utilisées
+## Prérequis
 
-- React
-- JavaScript, JSX
-- Bootstrap
-- CSS personnalisé
-- Axios (requêtes API)
-- React Icons
-- JSONBin (stockage des emails)
+- Node.js 18+ (recommandé)
+- npm
 
-## 📦 Installation
+## Installation
 
 ```bash
-git clone https://github.com/votre-nom/flambow.git
-cd flambow
 npm install
 ```
 
-## ⚙️ Configuration
+## Configuration
 
-Crée un fichier .env avec le .env.dist :
+1. Duplique `.env.dist` vers `.env`
+
 ```bash
-cp .env.template .env
+cp .env.dist .env
 ```
 
-> Remplissez les variables d'environnement nécessaires dans le fichier `.env`.
+Sous Windows PowerShell :
 
-## ▶️ Lancer le projet
+```powershell
+Copy-Item .env.dist .env
+```
+
+2. Renseigne la variable d'environnement utilisée par l'app :
+
+```env
+VITE_JSONBIN_URL=...
+```
+
+## Lancer le projet
 
 ```bash
 npm run dev
 ```
+
+Puis ouvre l'URL affichée par Vite (par défaut `http://localhost:5173`).
+
+## Scripts disponibles
+
+- `npm run dev` : lance le serveur de développement
+- `npm run build` : génère le build de production dans `dist/`
+- `npm run preview` : prévisualise le build localement
+- `npm run lint` : lance ESLint
+
+## Structure du projet
+
+```text
+src/
+  App.jsx
+  main.jsx
+  index.css
+  Navbar.jsx
+  Hero.jsx
+  HowDoesItWorkSection.jsx
+  ActForTomorrowSection.jsx
+  VideoSection.jsx
+  NewsletterSection.jsx
+  assets/
+    components/
+    fonts/
+    images/
+```
+
+## Notes
+
+- Le style principal est désormais géré avec Tailwind CSS.
+- Certains anciens fichiers CSS restent présents dans `src/assets/style/` mais ne sont plus importés dans le flux principal.
+- L'inscription newsletter utilise JSONBin via `VITE_JSONBIN_URL`.
